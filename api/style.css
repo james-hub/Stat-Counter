@@ -1,0 +1,100 @@
+/* <style> */
+
+/* ----- General ------------------------------------------------------------ */
+
+h1
+{
+  margin: 0px 0px 10px 10px;
+  font-size: 1.05em;
+}
+
+img.stats { margin-top: -10px; }
+
+table { border-collapse: collapse; }
+
+th { text-align: left; }
+
+p { margin: 0px 0px 10px 0px; }
+
+
+/* ----- Layout ------------------------------------------------------------- */
+
+div.logo
+{
+  padding: 0px 0px 4px 0px;
+  border-bottom: 1px solid #C0C000;
+
+  font-family: Verdana, Sans-Serif;
+  font-weight: 100;
+  font-size: 20px;
+  color: #000080;
+}
+
+div.navigation { padding-left: 5px; }
+
+div.navigation div, div.navigation a
+{
+  display: block;
+  float: left;
+
+  padding: 0px 5px;
+
+  text-decoration: none;
+  font-weight: 900;
+  font-family: "Times New Roman", Serif;
+  font-size: 13px;
+  color: #008000;
+}
+
+div.navigation div { color: #000000; margin-top: -1px; }
+
+div.yellowline
+{
+  clear: both;
+  border-top: 1px solid #C0C000;
+  height:      10px;
+  line-height: 10px;
+}
+
+div.text
+{
+  margin-left: 10px;
+  width: 550px;
+}
+
+
+/* ----- Form --------------------------------------------------------------- */
+
+table.form { margin-top: -10px; }
+
+table.form th
+{
+  padding: 10px 10px 5px 10px;
+  text-align: left;
+}
+
+table.form td { padding: 2px 10px; }
+
+table.form input.form,
+table.form select.form,
+table.form textarea.form { width: 200px; }
+
+table.sitestats
+{
+  margin-left: 10px;
+  border: 1px solid #404040;
+}
+
+
+/* ----- Site Stats --------------------------------------------------------- */
+
+table.sitestats th, table.sitestats td
+{
+  padding: 1px 10px;
+  font-size: 0.8em;
+}
+
+table.sitestats th      { background-color: #D0D0D0; }
+table.sitestats td.odd  { background-color: #F8F8F8; }
+table.sitestats td.even { background-color: #F0F0F0; }
+
